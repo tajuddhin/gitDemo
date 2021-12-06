@@ -1,0 +1,33 @@
+1.init the git here
+  git init
+
+2.to add files
+ git add .
+
+3. to check status 
+  git status
+
+4. delete file
+git checkout sshkey
+
+5. retrive file
+ git checkout master 
+
+6.get log in one line
+   git log --oneline
+
+7. see the log file 
+  git log
+
+8. to change most recent commit comment
+git commit --amend -m "comment"
+
+9. delete m,ost recent commity
+    git reset --hard Head^
+
+10. to delete multiple commits
+
+   git reset --hard HEAD~2
+
+11.to count no of commits 
+ git rev-list head --count
